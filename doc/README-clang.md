@@ -1,4 +1,4 @@
-> 本配置以https://www.cnblogs.com/esllovesn/p/10012653.html为模板，根据我自己的实际情况做出修改。
+> 本配置以https://www.cnblogs.com/esllovesn/p/10012653.html 为模板，根据我自己的实际情况做出修改。
 >
 > 在此十分感谢原作者，他帮助我解决了头文件报错问题
 

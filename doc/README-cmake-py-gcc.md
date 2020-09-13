@@ -1,6 +1,6 @@
 
 
-> 本配置以https://github.com/hysonger/VSCode-CPP-Template为模板，根据我自己的实际情况做出修改，并修正了原作者`build.py`文件中的一处bug
+> 本配置以https://github.com/hysonger/VSCode-CPP-Template 为模板，根据我自己的实际情况做出修改，并修正了原作者`build.py`文件中的一处bug
 >
 > 在此十分感谢原作者，他选择用python脚本执行cmake，大幅度地摆脱了vscode对于插件的依赖性
 
