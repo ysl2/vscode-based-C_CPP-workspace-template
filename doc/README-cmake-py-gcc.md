@@ -4,7 +4,7 @@
 >
 > 在此十分感谢原作者，他选择用python脚本执行cmake，大幅度地摆脱了vscode对于插件的依赖性
 
-这是在gcc/g++下通过python脚本调用Cmake同时编译多文件工程的配置方式，相应的配置文件在[这里](../cmake_py_gcc_g++) 
+这是在gcc/g++下通过python脚本调用Cmake同时编译多文件工程的配置方式，相应的配置文件在[这里](../cmakepygccg++) 
 
 具体使用方法，请查阅原作者的github仓库
 
