@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.0)
 
 project(${PROJ_NAME})
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 # 判断build type是debug还是release
 if(${BUILD_TYPE} MATCHES "debug")
