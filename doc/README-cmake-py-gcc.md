@@ -61,7 +61,7 @@
 
 ## 注意事项
 
-* 工作区文件夹（也就是目前的`cmakepygccgpp`）不能含有下划线（因为`build.py`中含有正则表达式，可能导致不匹配的问题）
+* 工作区文件夹（也就是目前的`cmakepygccgpp`）不能含有下划线（因为`tasks.json`中含有正则表达式，会导致不匹配），否则执行`clean`任务时，会报错`Traceback (most recent call last)`，即变量未定义。
 * 工作区和文件的路径不能含有中文
 * `clean_workspace_exe.bat`用于清除你不想要的`.exe`文件
 
