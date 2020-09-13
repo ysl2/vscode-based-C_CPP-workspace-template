@@ -1,3 +1,7 @@
+> 本配置以https://www.cnblogs.com/esllovesn/p/10012653.html为模板，根据我自己的实际情况做出修改。
+>
+> 在此十分感谢原作者，他帮助我解决了头文件报错问题
+
 这是clang/clang++的配置方式，相应的工作区文件在[这里](../clang_clang++) 
 
 通过这种方式，你将可以完成：
@@ -66,5 +70,5 @@
 
 ## 参考
 
-* https://www.zhihu.com/question/30315894/answer/154979413
+* https://www.cnblogs.com/esllovesn/p/10012653.html
 
