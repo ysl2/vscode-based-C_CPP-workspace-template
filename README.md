@@ -11,7 +11,7 @@
 | `gcc_g++`             | 以`gcc/g++`作为编译器的工作区模板                            | [README](./doc/README-gcc.md)          |
 | `clang_clang++`       | 以`clang/clang++`作为编译器的工作区模板                      | [README](./doc/README-clang.md)        |
 | `cmake_clang_clang++` | 以`clang/clang++`作为编译器，通过`CMake`同时构建多个文件的工作区模板 | [README](./doc/README-clang-cmake.md)  |
-| `cmake_py_gcc_gpp`    | 以gcc/g++作为编译器，通过python脚本调用CMake同时构建多个文件的工作区模板 | [README](./doc/README-cmake-py-gcc.md) |
+| `cmakepygccgpp`       | 以gcc/g++作为编译器，通过python脚本调用CMake同时构建多个文件的工作区模板 | [README](./doc/README-cmake-py-gcc.md) |
 | `global`              | 我的全局配置文件，与VSCode的界面设置相关，这个不是必须要用的 | [README](./doc/README-global.md)       |
 
 四种方案的优劣点如下：

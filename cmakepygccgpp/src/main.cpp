@@ -8,10 +8,9 @@ int main()
 
     std::cout << "3 + 4 = " << add(3, 4) << std::endl;
     std::cout << "3 - 4 = " << sub(3, 4) << std::endl;
-    std::cout << 1 << std::endl;
+    // std::cout << 1 << std::endl;
     // std::cout << std::endl;
-    system("pause");
-    
+    // system("pause");
+
     return 0;
 }
-
