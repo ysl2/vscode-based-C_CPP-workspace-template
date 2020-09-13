@@ -119,7 +119,7 @@
 
 > 打开左侧的CMake插件栏，上方有`Configure All Projects`和`Build All Projects`，
 
-<img src="F:\vscode_based_C_CPP_workspace_template\doc\img\Snipaste_2020-09-13_16-02-21.png" style="zoom:40%;" />
+<img src="./img/Snipaste_2020-09-13_16-02-21.png" style="zoom:40%;" />
 
 #### 重新编写文件，或者对文件/文件夹做出改动后
 
