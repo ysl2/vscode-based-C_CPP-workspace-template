@@ -44,3 +44,4 @@
 * https://www.cnblogs.com/esllovesn/p/10012653.html
 * https://blog.csdn.net/weixin_44049923/article/details/103619882 
 * https://github.com/hysonger/VSCode-CPP-Template
+* https://microsoft.github.io/language-server-protocol/implementors/servers/ （官方文档 -> 对于不同语言的的配置方案）
