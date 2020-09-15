@@ -18,9 +18,10 @@
 
 需要环境：
 
-* `python`（加入环境变量。用于运行`build.py`脚本）
-* （可选）如果你想用clang/clang++编译器，请安装LLVM（务必安装到默认位置`C:/Program Files/`）如果你想用gcc/g++，则不需要LLVM
-* MinGW（如果你想用clang/clang++，请把MinGW文件夹下的所有内容合并到LLVM目录下。如果你想用gcc/g++编译器，请务必安装到默认位置`C:/Program Files/`）
+* Python（加入环境变量。用于运行`build.py`脚本）
+* （可选）如果你想用`clang/clang++`编译器，请安装LLVM（务必安装到默认位置`C:/Program Files/`）如果你想用`gcc/g++`编译器，则不需要LLVM
+* MinGW（如果你想用`clang/clang++`编译器，请把MinGW文件夹下的所有内容合并到LLVM目录下。如果你想用`gcc/g++`编译器，请务必安装到默认位置`C:/Program Files/`）
+* CMake（请务必安装到默认位置`C:/Program Files/`）
 
 需要vscode插件：
 
@@ -29,7 +30,7 @@
 
 另外：
 
-* 原作者提到的`Include Autocomplete`插件可以不安装，只是用于智能提示头文件的。而C/C++插件也同样有智能提示功能
+* 原作者提到的`Include Autocomplete`插件可以不安装，这只是用于智能提示头文件的。而C/C++插件也同样有智能提示功能
 * **如果安装了`Clang Command Adapter`，需要禁用或删除** 
 
 ---
@@ -81,7 +82,7 @@
 
 ## 注意事项
 
-* 工作区文件夹（也就是目前的`cmakepygccgpp`）不能含有下划线（因为`tasks.json`中含有正则表达式，会导致不匹配），否则执行`clean`任务（见下面使用方法）时，会报错`Traceback (most recent call last)`，即变量未定义。
+* 工作区文件夹（也就是目前的`cmakepygccgpp`）不能含有特殊字符（比如下划线`_`和加号`+`等其他字符。因为`tasks.json`中含有正则表达式，会导致不匹配，你可以自行查看`tasks.json`的匹配规则），否则执行`clean`任务（见下面使用方法）时，会报错`Traceback (most recent call last)`，即变量未定义。
 * 工作区和文件的路径不能含有中文
 * `clean_workspace_exe.bat`用于清除你不想要的`.exe`文件。你也可以用下面的`clean`任务达到目的
 
