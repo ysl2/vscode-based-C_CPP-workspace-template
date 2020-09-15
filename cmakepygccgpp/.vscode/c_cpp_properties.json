@@ -1,14 +1,14 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name"       : "Win32",
             "includePath": [
                 "${workspaceFolder}/src/**"
             ],
             "browse": {
-                "path": [],
+                "path"                         : [],
                 "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
+                "databaseFilename"             : ""
             },
             "defines": [
                 "_DEBUG",
@@ -16,10 +16,10 @@
                 "__GNUC__=6",
                 "__cdecl=__attribute__((__cdecl__))"
             ],
-            "compilerPath": "C:/Program Files/LLVM/bin/g++.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "gcc-x64",
+            "compilerPath"         : "C:/Program Files/LLVM/bin/g++.exe",
+            "cStandard"            : "c11",
+            "cppStandard"          : "c++14",
+            "intelliSenseMode"     : "gcc-x64",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],

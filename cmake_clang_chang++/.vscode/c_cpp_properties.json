@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name"       : "Win32",
             "includePath": [
                 "${workspaceFolder}",
                 "${workspaceFolder}/**",
@@ -14,18 +14,18 @@
                     "${workspaceFolder}/include/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
+                "databaseFilename"             : ""
             },
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.17763.0",
-            "compilerPath": "C:/Program Files/LLVM/bin/g++.exe",
-            "cStandard": "c11",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "clang-x64",
+            "windowsSdkVersion"    : "10.0.17763.0",
+            "compilerPath"         : "C:/Program Files/LLVM/bin/g++.exe",
+            "cStandard"            : "c11",
+            "cppStandard"          : "c++14",
+            "intelliSenseMode"     : "clang-x64",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],

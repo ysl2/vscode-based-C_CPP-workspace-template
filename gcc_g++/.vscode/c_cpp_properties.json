@@ -1,14 +1,14 @@
 {
     "configurations": [
       {
-        "name": "GCC",
-        "includePath": ["${workspaceFolder}/**"],
-        "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+        "name"             : "GCC",
+        "includePath"      : ["${workspaceFolder}/**"],
+        "defines"          : ["_DEBUG", "UNICODE", "_UNICODE"],
         "windowsSdkVersion": "10.0.18362.0",
-        "compilerPath": "C:/Program Files/LLVM/bin/g++.exe",
-        "cStandard": "c11",
-        "cppStandard": "c++14",
-        "intelliSenseMode": "gcc-x64"
+        "compilerPath"     : "C:/Program Files/LLVM/bin/g++.exe",
+        "cStandard"        : "c11",
+        "cppStandard"      : "c++14",
+        "intelliSenseMode" : "gcc-x64"
       }
     ],
     "version": 4

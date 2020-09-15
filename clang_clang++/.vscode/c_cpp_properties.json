@@ -1,21 +1,21 @@
 {
     "configurations": [
         {
-            "name": "MinGW",
+            "name"            : "MinGW",
             "intelliSenseMode": "clang-x64",
-            "compilerPath": "C:/Program Files/LLVM/bin/g++.exe",
-            "includePath": [
+            "compilerPath"    : "C:/Program Files/LLVM/bin/g++.exe",
+            "includePath"     : [
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "browse": {
+            "browse" : {
                 "path": [
                     "${workspaceFolder}/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
+                "databaseFilename"             : ""
             },
-            "cStandard": "c11",
+            "cStandard"  : "c11",
             "cppStandard": "c++14"
         }
     ],
