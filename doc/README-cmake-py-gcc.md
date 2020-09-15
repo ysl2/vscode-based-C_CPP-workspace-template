@@ -18,7 +18,8 @@
 
 需要环境：
 
-* 如果你想用clang/clang++编译器，请安装LLVM（务必安装到默认位置`C:/Program Files/`）如果你想用gcc/g++，则不需要LLVM
+* `python`（加入环境变量。用于运行`build.py`脚本）
+* （可选）如果你想用clang/clang++编译器，请安装LLVM（务必安装到默认位置`C:/Program Files/`）如果你想用gcc/g++，则不需要LLVM
 * MinGW（如果你想用clang/clang++，请把MinGW文件夹下的所有内容合并到LLVM目录下。如果你想用gcc/g++编译器，请务必安装到默认位置`C:/Program Files/`）
 
 需要vscode插件：
@@ -28,7 +29,7 @@
 
 另外：
 
-* 原作者提到的`Include Autocomplete`插件可以不安装
+* 原作者提到的`Include Autocomplete`插件可以不安装，只是用于智能提示头文件的。而C/C++插件也同样有智能提示功能
 * **如果安装了`Clang Command Adapter`，需要禁用或删除** 
 
 ---
@@ -55,7 +56,7 @@
 
 如果你需要编写C++程序（文件后缀为`.cpp`），你只需：
 
-* 将`c_cpp_properties.json`文件中的`"compilerPath"`字段后面的路径改成你的`MinGW`对应的`g++.exe`所在目录（需要精确到`/g++.exe`），如果上一步中你安装到了推荐的默认位置，则不需要这一步骤。
+* 将`c_cpp_properties.json`文件中的`"compilerPath"`字段后面的路径改成你的`MinGW`对应的`g++.exe`所在目录（需要精确到`/g++.exe`），如果上一步中你安装到了推荐的默认位置，则不需要这一步骤
 
 ### 2. C程序的配置
 
